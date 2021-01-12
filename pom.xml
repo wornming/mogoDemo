@@ -9,7 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>mongo-java-demon</module>
+        <module>mongo-java-demo</module>
+        <module>mongo-spring-demo</module>
     </modules>
 
     <dependencyManagement>
