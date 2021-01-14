@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:111111@localhost:27017/test
+      primary:
+        uri: mongodb://test:111111@localhost:27017/test
+      secondary:
+        uri: mongodb://admin:111111@localhost:27017/admin

@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "spring.data.mongodb.primary",
+      "type": "com.wornming.demo.mongodb.config.PrimaryMongoConfig",
+      "sourceType": "com.wornming.demo.mongodb.config.PrimaryMongoConfig"
+    },
+    {
+      "name": "spring.data.mongodb.secondary",
+      "type": "com.wornming.demo.mongodb.config.SecondaryMongoConfig",
+      "sourceType": "com.wornming.demo.mongodb.config.SecondaryMongoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.data.mongodb.primary.uri",
+      "type": "java.lang.String",
+      "description": "Mongo database URI. Cannot be set with host, port, credentials and replica set name.",
+      "sourceType": "com.wornming.demo.mongodb.config.PrimaryMongoConfig",
+      "defaultValue": "mongodb:\/\/localhost\/test"
+    },
+    {
+      "name": "spring.data.mongodb.secondary.uri",
+      "type": "java.lang.String",
+      "description": "Mongo database URI. Cannot be set with host, port, credentials and replica set name.",
+      "sourceType": "com.wornming.demo.mongodb.config.SecondaryMongoConfig",
+      "defaultValue": "mongodb:\/\/localhost\/test"
+    }
+  ],
+  "hints": []
+}

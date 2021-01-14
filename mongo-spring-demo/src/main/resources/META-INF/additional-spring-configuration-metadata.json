@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.data.mongodb.primary.uri",
+      "defaultValue": "mongodb://localhost/test"
+    },
+    {
+      "name": "spring.data.mongodb.secondary.uri",
+      "defaultValue": "mongodb://localhost/test"
+    }
+  ],
+  "hints": []
+}
